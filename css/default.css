@@ -370,18 +370,18 @@ dd { margin: 0 0 0 20px; }
 	display: inline;
 	margin: 0;
 }
-.lining dt + dt:before,
+/*.lining dt + dt:before,
 .lining dd + dt:before {
 	content: "\A";
 	white-space: pre;
-}
-.lining dd + dd:before {
+}*/
+/*.lining dd + dd:before {
 	content: ", ";
 }
 .lining dd:before {
-	content: ": ";
+	content: ", ";
 	margin-left: -0.2em;
-}
+}*/
 
 /* Dictionary Definition Style Markup */
 .dictionary-style dt {
